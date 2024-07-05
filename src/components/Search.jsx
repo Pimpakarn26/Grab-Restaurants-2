@@ -1,5 +1,4 @@
-import React from 'react'
-import { useEffect, useState } from "react";
+import React, { useState } from "react";
 
 const Search = ({restaurants, setFilteredRestaurants}) => {
   const [keyword, setKeyword] = useState("");
